@@ -10,7 +10,7 @@ celt-0.7.1 的c源码编译
 ```shell
 # 使用root权限
 sudo -i 
-git clone https://github.com/scjtqs2/libcelt.git
+git clone https://github.com/scjtqs2/libcelt.git -b 0.7.1
 cd libcelt/celt-0.7.1
 # 确保你的环境具备编译工具make、gcc等
 ./configure
@@ -21,7 +21,7 @@ make install
 ```shell
 # 使用root权限
 sudo -i 
-git clone https://github.com/scjtqs2/libcelt.git
+git clone https://github.com/scjtqs2/libcelt.git -b 0.7.1
 cd libcelt
 # 安装 scons
 apt install gcc scons -y
